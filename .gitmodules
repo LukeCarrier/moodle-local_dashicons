@@ -1,0 +1,3 @@
+[submodule "src/vendor/dashicons"]
+	path = src/vendor/dashicons
+	url = https://github.com/melchoyce/dashicons.git
