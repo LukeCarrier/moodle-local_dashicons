@@ -36,6 +36,7 @@ function local_dashicons_requirements() {
     if ((defined('AJAX_SCRIPT') && AJAX_SCRIPT)
             || (defined('CLI_SCRIPT') && CLI_SCRIPT)
             || $PAGE->headerprinted
+            || $PAGE->requires->is_head_done()
             || during_initial_install()) {
         return;
     }
